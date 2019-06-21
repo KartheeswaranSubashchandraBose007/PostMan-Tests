@@ -3923,6 +3923,23 @@
           "DefaultValue": ""
         },
         {
+          "ParamFormat": "Header",
+          "Optional": false,
+          "Type": "String",
+          "IsSdlNativeType": true,
+          "Constant": false,
+          "IsStream": false,
+          "IsAttribute": false,
+          "Example": "application/x-www-form-urlencoded",
+          "Nullable": false,
+          "IsArray": false,
+          "IsMap": false,
+          "Deprecated": false,
+          "Name": "Content-Type",
+          "Description": "",
+          "DefaultValue": ""
+        },
+        {
           "ParamFormat": "Body",
           "Optional": false,
           "Type": "String",
@@ -3962,6 +3979,11 @@
               "IsNull": false,
               "Name": "Postman-Token",
               "Value": " 183b86f3-d032-7e73-ba01-fc4777ff2ae9"
+            },
+            {
+              "IsNull": false,
+              "Name": "Content-Type",
+              "Value": "application/x-www-form-urlencoded"
             },
             {
               "IsNull": false,
@@ -23054,7 +23076,13 @@
       "Type": "Simple"
     },
     "ForceKeywordArgsInRuby": false,
-    "SymbolizeHashKeysInRuby": false
+    "SymbolizeHashKeysInRuby": false,
+    "UsageExampleEndpoint": {
+      "Description": "",
+      "EndpointGroupName": "",
+      "EndpointName": ""
+    },
+    "IsLatestVersion": false
   },
   "Errors": [],
   "TestGenSettings": {
